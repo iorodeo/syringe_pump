@@ -40,7 +40,7 @@ class SyringePump(serial.Serial):
         valStr = float2PumpFormat(val)
         self.sendCmd('DIA {0}'.format(valStr))
 
-    def setRate(self,val,units='NS'):
+    def setRate(self,val,units='UM'):
         """
         Set the pumping rate.  Value must be bewteen 0 and 1000 and 
         units must be 'NS', 'UM', 'MM', 'UH', or 'MH'

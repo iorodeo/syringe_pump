@@ -1,0 +1,9 @@
+syringe_pump: pyserial based interface to the New Era Pump Systems Model
+NE-500/NE-501 , NE-1000 Family of syringe pumps. 
+
+Installations instructions can be found in the INSTALL file.
+
+Author: Will Dickson IO Rodeo Inc.
+
+syringe_pump may be freely distributed and modified in accordance with the
+Apache 2.0  License.
